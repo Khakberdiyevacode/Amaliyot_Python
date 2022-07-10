@@ -1,0 +1,131 @@
+AMALIYOT
+№1
+Adabiyot (ilm-fan, san'at, internet) olamidagi 4 ta mashxur shaxlar haqidagi ma'lumotlarni lug'at ko'rinishida saqlang.
+Lug'atlarni bitta ro'yxatga joylang, va har bir shaxs haqidagi ma'lumotni konsolga chiqaring.
+
+№2
+Yuqoridagi lug'atlarga har bir shaxsning mashxur asarlari ro'yxatini ham qo'shing.
+For tsikli yordamida muallifning ismi va uning asarlarini konsolga chiqaring.
+
+№3
+Oila a'zolaringiz (do'stlaringiz) dan 3 ta sevimli kino-seriali haqida so'rang.
+Do'stingiz ismi kalit, uning sevimli kinolarini esa ro'yxat ko'rinishida lug'artga saqlang.  Natijani konsolga chiqaring.
+
+№4
+Davlatlar degan lug'at yarating, lug'at ichida bir nechta davlatlar haqida ma'lumotlarni lug'at ko'rinishida saqlang. 
+Har bir davlat haqida ma'lumotni konsolga chiqaring.
+
+JAVOBLAR
+#№1
+malohat = {
+      'ism':'malohat',
+      'familia':'haqberdiyeva',
+      'ochisva':'umedjonova',
+      'yil': 2007,
+      'sana': 15,
+      'oy':'fevral'    
+    }
+ali = {
+      'ism':'ali',
+      'familia':'haqberdiyev',
+      'ochisva':'umedjonovich',
+      'yil': 2004,
+      'sana': 18,
+      'oy':'iyun'    
+    }
+abdullo = {
+      'ism':'abdullo',
+      'familia':'haqberdiyev',
+      'ochisva':'umedjonovich',
+      'yil': 2010,
+      'sana': 12,
+      'oy':'fevral'    
+    }
+
+obshi = [malohat,ali,abdullo]
+for a in obshi:
+    ism = a['ism']
+    familia = a['familia']
+    ochisva = a['ochisva']
+    yil = a['yil']
+    sana = a['sana']
+    oy = a['oy']
+    
+    print(f"{ism.title()} {familia.title()} {ochisva.title()}  {yil} yil"
+          f"{oy} oyning {sana} sanasida tug`ilgan"
+          )
+    
+#№2
+malohat = {
+      'ism':'malohat',
+      'familia':'haqberdiyeva',
+      'ochisva':'umedjonova',
+      'yil': 2007,
+      'sana': 15,
+      'oy':'fevral',
+      'asar':['zumrad va qimmat','sabbayi sayyor']
+    }
+ali = {
+      'ism':'ali',
+      'familia':'haqberdiyev',
+      'ochisva':'umedjonovich',
+      'yil': 2004,
+      'sana': 18,
+      'oy':'iyun' ,
+      'asar':['o`tgan kunlar','mehrobdan chayon']
+    }
+abdullo = {
+      'ism':'abdullo',
+      'familia':'haqberdiyev',
+      'ochisva':'umedjonovich',
+      'yil': 2010,
+      'sana': 12,
+      'oy':'fevral' ,
+      'asar': ['yaxshi bo`lish osonmi','uch og`yni botirlar']
+    }
+
+obshi = [malohat,ali,abdullo]
+for s in obshi:
+    ism = s['ism']
+    asarlar = s['asar']
+    print(f"{ism} ning o`qigan kitoblari")
+    for kitob in asarlar:
+        print(kitob.title())
+         
+    
+#3
+bolalar = {
+    'ali':['abdullajon','marvel','merlin'],
+    'abdullo':['terminator','12-raund','ono'],
+    'vali':['venom','marvel','iztopar']
+    }
+for k,v in bolalar.items():
+    print(f"\n{k.title()} ushbu kinolarni ko`rgan")
+    for kino in v:
+        print(kino.title())
+
+
+
+#4
+davlatlar = {
+    'o`zbekiston':
+        {'poytaxti': 'toshkent',
+        'hududi': '448978kv.km',
+        'aholisi': 37000000,
+        'pul birligi' : 'so`m'},
+    'rassiya':
+        {'poytaxti':'maskva',
+          'hududi':'17098246',
+          'aholisi': 144000000,
+          'pul birligi':'rubl'},   
+    'aqsh':
+        {'poytaxti':'vashingtong',
+          'hududi':'9631418',
+          'aholisi': 327000000,
+          'pul birligi':'dollar'},  
+      'malayziya':
+          {'poytaxti':'kuala-lampur',
+          'hududi':'329750',
+          'aholisi': 250000000,
+          'pul birligi':'rinngit'}    
+}
