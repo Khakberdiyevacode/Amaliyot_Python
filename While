@@ -1,0 +1,100 @@
+#24.06.2022
+#while
+# a = 1
+# while a < 10:
+#     a+=1
+#     print(a,end=" ")
+
+
+
+
+
+# son = True
+# while son:
+#     son = int(input('2*465  '))
+#     if son == son :
+#         son = False
+#         print('To`gri')
+#     else:
+#         print('qaytadan urunib koring')
+       
+
+
+# savol = "Istalgan son kiriting "
+# savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+# ishora = True
+# while ishora:
+#     qiymat = input(savol)
+#     if qiymat == 'exit' or qiymat == 'tugadi':
+#         ishora = False
+#     else:
+#         print(float(qiymat)**2)
+
+
+
+#WHILE BREAK
+# son = True
+# while son:
+#     son = int(input('2*465  '))
+#     if son == son :
+#         break
+#         print('To`gri')
+#     else:
+#         print('qaytadan urunib koring')
+       
+
+
+#FOR DA BREAK
+
+# for x in range(1,10):
+#     if x == 5:
+#         break
+#     else:
+#         print(x)
+    
+
+#CONTINUE OPERATORI
+
+# son = 0
+# while son<10:
+#     son+=1
+#     if son%2 == 0:
+#         continue
+#     else:
+#         print(son)
+
+
+AMALIYOT
+1 Foydalanuvchidan yaxshi ko'rgan kitoblarini kiritishni so'rang. Foydalanuvchi stop so'zini yozishi bilan dasturni to'xtating
+
+2 Muzeyga chipta narhi foydalanuvchining yoshiga bog'liq: 7 dan yoshlarga - 2000 so'm, 7-18 gacha 3000 so'm, 18-65 gacha 10000 so'm, 65 dan kattalarga bepul.
+Shunday while tsikl yozingki, dastur foydalanuvchi yoshini so'rasin va chipta narhini chiqarsin. 
+Foydalanuvchi exit yoki quit deb yozganda dastur to'xtasin (ikkita shartni ham tekshiring).
+Yuqoridagi dasturni turli usullarda yozib ko'ring (break, ishora, yoki shart tekshirish)
+
+#JAVOBLAR
+#№1
+# a=1
+# while True:
+#     kitob = input(f'{a}-sevimli kitobingizni kiriting to`xtatish uchun (stop) deb yozing    ')
+#     a+=1
+#     if kitob == 'stop':
+#         break
+        
+#№2
+# sol = True
+# while sol:
+#    sol = input('yoshingizni kiriting  ')
+#    if sol == 'exit' or sol == 'quit':
+#       break
+#    yosh = int(sol)
+    
+#    if yosh <= 7:
+#         print(2000)
+#    elif 7 < yosh <= 18:
+#         print(3000)
+#    elif 18 < yosh < 65:
+#         print( 10000)
+#    else:
+#         print('brpul')
+  
