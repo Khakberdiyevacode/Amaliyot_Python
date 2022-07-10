@@ -1,0 +1,105 @@
+#WHILE YORDAMIDA LUG'ATNI TO'LDIRISH
+
+# dostlar = {}
+# ishora = True
+# while ishora:
+#     ism = input('do`stlaringiz ismini kiriting  ')
+#     yosh = int(input(f"{ism.title()}ning yoshini kiriting  "))
+#     dostlar[ism]=yosh
+    
+#     javob = input("Yana ma'lumot qo`shasizmi ")
+#     if javob == 'yo`q':
+#          ishora=False
+        
+    
+# for ism,yosh in dostlar.items():
+#     print(f"{ism.title()} {yosh} yoshda")
+
+
+
+
+
+#RO'YXAT ELEMENTLARINI O'CHIRISH
+
+# cars = ['malibu','ferrari','mustang','bmw','bugatti','malibu']
+# while 'malibu' in cars:
+#     cars.remove('malibu')
+# print(cars)
+
+
+
+#RO'YXATDAN RO'YXATGA ELEMENT KO'CHIRISH
+
+# talabalar = ['ali','vali','hasan','husan']
+# baholangan_talabalar = {}
+# while talabalar:
+#     talaba=talabalar.pop()
+#     baho = int(input(f"{talaba.title()}ning bahosini kiriting  "))
+#     print(f"{talaba.title()} baholandi ")
+#     baholangan_talabalar[talaba]=baho
+
+# for x,y in baholangan_talabalar.items():
+#     print(f"\n{x.title()}ning bahosi {y}")
+
+AMALIYOT
+1 Foydalanuvchidan buyurtma qabul qiluvchi dastur yozing. Mahsulotlar nomini birma-bir qabul qilib, yangi ro'yxatga joylang.
+
+2 e-bozor uchun mahsulotlar va ularning narhlari lug'atini shakllantiruvchi dastur yozing. 
+Foydalanuvchidan lug'atga bir nechta elementlar (mahsulot va uning narhi) kiritishni so'rang.
+
+3 Yuqoridagi ikki dasturni jamlaymiz. Foydalanuvchi buyurtmasi ro'yxatidagi har bir mahsulotni e-bozordagi mahsulotlar bilan solishitiring (tayyor ro'yxat ishlatishingiz mumkin).
+Agar mahsuot e-bozorda mavjud bo'lsa mahuslot narhini chiqaring, aks holda "Bizda bu mahsulot yo'q" degan xabarni kor'sating.
+
+
+#JAVOBLAR
+#№1
+# menyu = []
+
+# while True:
+#     buyurtma=input('taom buyurtma bering  ')
+#     menyu.append(buyurtma)
+#     javob = input('Yana buyurtma berasizmi (ha/yo`q)  ')
+#     if javob == 'yo`q':
+#         break
+    
+# print('buyurtmalaringiz:')    
+# for x in menyu:
+#     print(x.title(),end='  ')
+    
+
+#№2
+# bozorlik = {}
+# b_narh = 0
+# while True:
+#     mahsulot = input('Bozorlik uchun mahsulot nomi  ')
+#     narh = int(input(f"{mahsulot.title()}ning narhi  "))
+#     bozorlik[mahsulot] = narh
+#     javob = input('Yana mahsulot qo`shasizmi (ha/yo`q)  ')
+#     if javob == 'yo`q':
+#         break
+ 
+    
+# print('bozorlik mahsulotingiz:')
+# for x,y in bozorlik.items():
+#     b_narh+=y
+#     print(f"{x.title()}ning narhi {y}" )    
+# print(f"jami: {b_narh}" )
+
+
+
+#№3
+# menyu = ['somsa','shashlik','shaurma','lavash']
+# bozorlik = {'somsa':'5000',
+#             'shaurma':'30000',
+#             'olma':'10000',
+#             'shashlik':'20000'
+#             }
+
+# while menyu:
+#     royhat = menyu.pop()
+#     if royhat in bozorlik.keys():
+#         narh = bozorlik[royhat]
+#         print(f"{royhat.title()}-{narh} so`m")
+#     else:
+#         print(f"Bizda {royhat} yo`q")
+
