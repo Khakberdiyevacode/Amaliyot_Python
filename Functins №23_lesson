@@ -1,0 +1,25 @@
+#function/23-modules
+# import math  
+# x = 81  #ildiz
+# print(math.sqrt(x))
+
+
+# print(math.pow(5,2)) #daraja
+
+# print(math.ceil(10))  #x dan katta yoki teng bo'lgan eng kichik butun sonni qaytaradi
+# import random as r
+# ismlar = ['olim','anvar','hasan','husan']
+# ism = r.choice(ismlar) # ismlar dan tasodifiy ism tanlaymiz
+# print(ism)
+# print(r.choice(ism)) # ismdan tasodifiy harf tanlaymiz
+
+
+# x = list(range(1,10))
+# print(x)
+# print(r.choice(x))
+
+
+# x = list(range(11))
+# print(x)
+# r.shuffle(x)
+# print(x)
