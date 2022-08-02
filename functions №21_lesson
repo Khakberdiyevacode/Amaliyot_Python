@@ -1,0 +1,10 @@
+#21-funksiya-va-royxat
+#1
+# def katta(ismlar):
+#     for i in range(len(ismlar)):
+#         ismlar[i]=ismlar[i].title()  
+
+
+# katt =["malohat",'ali']
+# katta(katt)
+# print(katt)
