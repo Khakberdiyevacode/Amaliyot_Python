@@ -1,0 +1,26 @@
+#22-flexible-functions amaliy mashgulot
+#1
+
+# def kopaytma(*sonlar):
+#    k = 1
+#    for son in sonlar:
+#        k*=son
+#    print(k)
+# kopaytma(2,3,4)
+
+#2
+# def talabalar(ism,familia,**malumot):
+#     malumot["ism"]=ism
+#     malumot["familia"] = familia
+#     print(malumot)
+#     return malumot
+
+
+# talabalar("malohat", "haqberdiyeva", sinf = 9, maktab = 23)
+
+#3
+# def kino(ism,**malumot):
+#     malumot["ism"]= ism
+#     return malumot
+
+# b = kino("qasoskorlar", bosh_q = "toni stark",kino_y = "1990")
