@@ -1,0 +1,111 @@
+#amaliy mashgulot https://python.sariq.dev/function/20-qiymat-qaytarish
+#1
+# def user(ism,familia,t_yil,t_joy,email = '',tell = None):
+#     """siz haqingizda lugatli malumot yasayman"""
+#     lugat = {
+#         'ismi': ism,
+#         'familiasi' : familia,
+#         't_yili' : t_yil,
+#         'email' : email,
+#         'tel' : tell
+        
+#         }
+#     return lugat
+
+
+# user1 = user('malohat', 'haqberdiyeva', 2007, 'samarqand','khakberdiyeva@gmail.com')
+# user2 = user('malohat', 'haqberdiyeva', 2007, 'samarqand','khakberdiyeva@gmail.com',902893777)
+# userlar = [user1,user2]
+
+# for users in userlar:
+#     if users['tel']:
+#         tel = users["tel"]
+#     else:
+#         tel = 'nomalum'
+#     print(f"{users['ismi']} {users['familiasi']} tel {tel}")
+    
+
+#2
+
+# def user(ism,familia,t_yil,t_joy,email = '',tell = None):
+#     """siz haqingizda lugatli malumot yasayman"""
+#     lugat = {
+#         'ismi': ism,
+#         'familiasi' : familia,
+#         't_yili' : t_yil,
+#         'email' : email,
+#         'tel' : tell
+        
+#         }
+#     return lugat
+
+# mijozlar = []
+# while True:
+#     ism = input("ism ")
+#     familia = input("familia ")
+#     t_yil = input("tug`ilgan yil ")
+#     email = input("email ")
+#     tel = input("tel ")
+#     mijozlar.append(user(ism,familia,t_yil,email,tel))
+#     javob = input("yana davom etasizmi ")
+#     if javob != "ha":
+#         break
+
+
+# print("mijozlar :")
+# for mijoz in mijozlar:
+#     print(f"Ismi {mijoz['ismi']} Familasi {mijoz['familiasi']}  Tug'ilgan yili {mijoz['t_yili']}")
+
+
+#3
+# def maximal(son1,son2,son3):
+#     print( max(son1,son2,son3))
+  
+# maximal(3, 5, 4)
+
+
+#4
+# def aylana(radius):
+#     lugat = {" radius" : radius,
+#              "diametr" : radius/2,
+#              "perimetri":radius+radius*2
+#             }
+#     print(lugat)
+
+# aylana(2)
+
+
+#5
+# def tub_sonlar_top(min, max):
+#     tub_sonlar = []
+#     for n in range(min, max + 1):
+#         tub = True
+#         if n == 1:
+#             tub = False
+#         elif n == 2:
+#             tub = True
+#         else:
+#             for x in range(2, n):
+#                 if n % x == 0:
+#                     tub = False
+#         if tub:
+#             tub_sonlar.append(n)
+
+#     print( tub_sonlar)
+
+# tub_sonlar_top(1, 20)
+
+
+
+#6
+# def fibanachi(son):
+#     a,b = 0,1
+#     s = []
+#     for c in range(son):
+#         if b <= son :
+#             a,b = b,a+b
+#             s.append(a)
+#     print(s)
+#     return s
+
+# fibanachi(9)
