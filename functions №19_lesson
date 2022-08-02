@@ -1,0 +1,19 @@
+# #AMALIYOT function (https://python.sariq.dev/function/19-function)
+# def t_yil(ism,yosh):
+#     """ism va yoshini so`rab tug`lgan 
+#     yilini aytuvchi function"""
+#     print(f"salom {ism.title()}.Siz {2022-yosh}-yil ekansiz")
+    
+    
+# def number(son):
+#     """son kiriting kvadrati va kubini chiqarib beraman"""
+#     print(f"{son }ning kvadrati {son**2}. Kubi {son**3}")
+    
+    
+# def tur(son):
+#     """"son kiriting toq yoki juft ekanni aytaman"""
+#     if son%2==0:
+#        x = 'juft son'
+#     else:
+#        x = 'toq son' 
+#     print(x)
